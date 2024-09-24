@@ -32,7 +32,8 @@ export default function App() {
     )
 
     setUnique(uniquewords.size)
-
+    
+  // eslint-disable-next-line no-useless-escape
     const punctuations=/[.,\/#!$%\^&\*;:{}=\-_~()/ ]/g
 
     const characters=text.replace(punctuations, '')
